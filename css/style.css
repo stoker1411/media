@@ -24,6 +24,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .list{
     display: flex;
@@ -44,6 +45,7 @@ color: black;
 }
 .human{
     margin-bottom: 35px;
+    width: 100%;
 }
 .comunity{
     width: 100%;
@@ -96,14 +98,17 @@ p{
     display: flex;
     background: #ededed;
     justify-content: center;
-    margin-bottom: 50px;
+
 }
 .deck{
-    width: 475px;
-    margin-left: 20px;
-    margin-top: 10px;
-}
+    width: 100%;
+    text-align: justify;
 
+}
+.alish:nth-of-type(odd){
+    display: flex;
+    flex-direction: column-reverse;
+}
 
 .footer{
     display: flex;
